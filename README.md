@@ -1,8 +1,9 @@
-# Distributed API Gateway Rate Limiter
+# Throttl
+## Distributed API Gateway Rate Limiter
 
-![Go](https://img.shields.io/badge/Go-1.25.5-00ADD8?style=flat&logo=go&logoColor=white)
+![Go](https://img.shields.io/badge/Go-1.25.6-00ADD8?style=flat&logo=go&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat)
-[![Rate Limiter Tests](https://github.com/Unhyphenated/rate-limit/actions/workflows/ci.yml/badge.svg)](https://github.com/Unhyphenated/rate-limit/actions/workflows/ci.yml)
+[![Rate Limiter Tests](https://github.com/Unhyphenated/throttl/actions/workflows/ci.yml/badge.svg)](https://github.com/Unhyphenated/throttl/actions/workflows/ci.yml)
 
 > A high-performance, horizontally scalable API gateway rate-limiting tier built in Go — designed to protect downstream microservices from traffic surges, bursts, and DDoS attempts using an atomic Token Bucket engine backed by Redis Lua scripts.
 
@@ -161,7 +162,7 @@ Ensure you have Docker and Docker Compose installed locally.
 Launch the 3 Go API gateways, Nginx reverse proxy, Redis instance, Prometheus metrics collector, and Grafana dashboard in detached mode:
 
 ```bash
-git clone https://github.com/Unhyphenated/rate-limit.git
+git clone https://github.com/Unhyphenated/throttl.git
 cd rate-limit
 docker compose up -d --build
 ```

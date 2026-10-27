@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Unhyphenated/rate-limit/internal/config"
-	"github.com/Unhyphenated/rate-limit/internal/limiter"
-	"github.com/Unhyphenated/rate-limit/internal/metrics"
+	"github.com/Unhyphenated/throttl/internal/config"
+	"github.com/Unhyphenated/throttl/internal/limiter"
+	"github.com/Unhyphenated/throttl/internal/metrics"
 )
 
 func RateLimit(l *limiter.Limiter, next http.HandlerFunc) http.HandlerFunc {

@@ -1,4 +1,4 @@
-module github.com/Unhyphenated/rate-limit
+module github.com/Unhyphenated/throttl
 
 go 1.25.6
 

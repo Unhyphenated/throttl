@@ -7,12 +7,12 @@ import (
 	"os"
 	"time"
 
-	"github.com/Unhyphenated/rate-limit/internal/breaker"
-	"github.com/Unhyphenated/rate-limit/internal/cache"
-	"github.com/Unhyphenated/rate-limit/internal/handlers"
-	"github.com/Unhyphenated/rate-limit/internal/limiter"
-	"github.com/Unhyphenated/rate-limit/internal/metrics"
-	"github.com/Unhyphenated/rate-limit/internal/middleware"
+	"github.com/Unhyphenated/throttl/internal/breaker"
+	"github.com/Unhyphenated/throttl/internal/cache"
+	"github.com/Unhyphenated/throttl/internal/handlers"
+	"github.com/Unhyphenated/throttl/internal/limiter"
+	"github.com/Unhyphenated/throttl/internal/metrics"
+	"github.com/Unhyphenated/throttl/internal/middleware"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 )
 

@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Unhyphenated/rate-limit/internal/cache"
+	"github.com/Unhyphenated/throttl/internal/cache"
 )
 
 func setupRedis(t *testing.T) (cache.Cache, func()) {

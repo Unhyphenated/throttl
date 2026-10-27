@@ -6,9 +6,9 @@ import (
 	"math"
 	"time"
 
-	"github.com/Unhyphenated/rate-limit/internal/cache"
-	"github.com/Unhyphenated/rate-limit/internal/metrics"
-	"github.com/Unhyphenated/rate-limit/internal/models"
+	"github.com/Unhyphenated/throttl/internal/cache"
+	"github.com/Unhyphenated/throttl/internal/metrics"
+	"github.com/Unhyphenated/throttl/internal/models"
 	"github.com/redis/go-redis/v9"
 )
 

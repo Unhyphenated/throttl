@@ -3,8 +3,8 @@ package cache
 import (
 	"context"
 
-	"github.com/Unhyphenated/rate-limit/internal/breaker"
-	"github.com/Unhyphenated/rate-limit/internal/models"
+	"github.com/Unhyphenated/throttl/internal/breaker"
+	"github.com/Unhyphenated/throttl/internal/models"
 	"github.com/redis/go-redis/v9"
 )
 
