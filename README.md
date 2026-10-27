@@ -55,7 +55,7 @@ By decoupling the application logic from the state store, the gateway scales hor
 The project follows standard Go enterprise layout patterns, separating operational configurations from core domain logic:
 
 ```
-rate-limit/
+throttl/
 ├── docker-compose.dev.yaml
 ├── docker-compose.yaml
 ├── Dockerfile
@@ -163,7 +163,7 @@ Launch the 3 Go API gateways, Nginx reverse proxy, Redis instance, Prometheus me
 
 ```bash
 git clone https://github.com/Unhyphenated/throttl.git
-cd rate-limit
+cd throttl
 docker compose up -d --build
 ```
 
